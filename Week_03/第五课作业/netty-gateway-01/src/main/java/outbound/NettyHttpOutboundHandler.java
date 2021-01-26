@@ -6,13 +6,16 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.http.*;
-import outbound.client.NettyClientInboundHandler;
+import outbound.client.NettyClientHandler;
 
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 创建一个netty的HttpClient去向下游服务发送请求
+ */
 public class NettyHttpOutboundHandler extends AbstractHttpOutboundHandler {
 
     @Override
@@ -33,7 +36,7 @@ public class NettyHttpOutboundHandler extends AbstractHttpOutboundHandler {
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
                             ChannelPipeline pipeline = socketChannel.pipeline();
                             pipeline.addLast(new HttpClientCodec());
-                            pipeline.addLast(new NettyClientInboundHandler(list, uri.getPath()));
+                            pipeline.addLast(new NettyClientHandler(list, uri.getPath()));
                         }
                     });
 

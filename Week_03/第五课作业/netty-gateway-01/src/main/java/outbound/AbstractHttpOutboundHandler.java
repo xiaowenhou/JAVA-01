@@ -13,6 +13,11 @@ import io.netty.util.internal.StringUtil;
 public abstract class AbstractHttpOutboundHandler {
     private static final String WEB_URL = "http://localhost:8088/api/hello";
 
+    /**
+     * 定义算法的骨架
+     * @param fullHttpRequest
+     * @param ctx
+     */
     public final void handler(FullHttpRequest fullHttpRequest, ChannelHandlerContext ctx) {
         String responseValue = sendRequest(fullHttpRequest, WEB_URL);
         handleResponse(fullHttpRequest, responseValue, ctx);

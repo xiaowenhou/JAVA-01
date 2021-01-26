@@ -7,10 +7,15 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.handler.codec.http.HttpObjectAggregator;
 import io.netty.handler.codec.http.HttpServerCodec;
 
-//管道初始化器
+/**
+ * 管道初始化器
+ */
 public class HttpChannelInitializer extends ChannelInitializer<SocketChannel> {
-
-    //当Channel初始创建完毕后就会触发该方法的执行， 用于初始化Channel
+    /**
+     * 当Channel初始创建完毕后就会触发该方法的执行， 用于初始化Channel
+     * @param socketChannel
+     * @throws Exception
+     */
     @Override
     protected void initChannel(SocketChannel socketChannel) throws Exception {
         //从channel中获取pipeline

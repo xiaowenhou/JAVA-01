@@ -8,16 +8,23 @@ import io.netty.util.CharsetUtil;
 
 import java.util.List;
 
-public class NettyClientInboundHandler extends ChannelInboundHandlerAdapter {
+/**
+ * 基于Netty的HttpClient处理器
+ */
+public class NettyClientHandler extends ChannelInboundHandlerAdapter {
 
     private final List<String> list;
     private final String uriPath;
 
-    public NettyClientInboundHandler(List<String> list, String uriPath) {
+    public NettyClientHandler(List<String> list, String uriPath) {
         this.list = list;
         this.uriPath = uriPath;
     }
 
+    /**
+     * 在Channel有消息的时候向下游服务发起Http请求调用
+     * @param ctx
+     */
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
         FullHttpRequest request = new DefaultFullHttpRequest(HttpVersion.HTTP_1_0, HttpMethod.GET, uriPath);
@@ -26,6 +33,11 @@ public class NettyClientInboundHandler extends ChannelInboundHandlerAdapter {
         ctx.writeAndFlush(request);
     }
 
+    /**
+     * 当下游服务有响应的时候处理
+     * @param ctx
+     * @param msg
+     */
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
         if (msg instanceof HttpResponse) {

@@ -12,6 +12,9 @@ import io.netty.handler.codec.http.HttpServerCodec;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 
+/**
+ * 网关Server，用于接受客户端发来的请求
+ */
 public class HttpServer {
     public static void main(String[] args) {
         //用于处理客户端连接请求， 将请求发送给childGroup中的eventLoop
