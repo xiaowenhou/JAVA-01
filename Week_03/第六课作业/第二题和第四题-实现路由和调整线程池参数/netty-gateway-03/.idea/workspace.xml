@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13b85161-342f-40ea-be62-105584132fed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="985d9c92-bb7b-47fd-ab2a-db9eeb7fccc3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/DefaultPreRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/HttpPreRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inbound/HttpInboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/outbound/AbstractHttpOutboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/outbound/HttpClientOutboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/outbound/NettyHttpOutboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/outbound/OkHttpOutboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/outbound/client/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/router/HttpEndpointRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/router/RandomRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/HttpChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第一题-在原来网关的基础上实现过滤器/netty-gateway-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../第一题-在原来网关的基础上实现过滤器/netty-gateway-02/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,19 +35,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectId" id="1nbOeq5PGTwQCgJs8cTDjRqq7di" />
+  <component name="ProjectId" id="1ne9BUM8ufJbnJFbBEK5hks2U7i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../第二题和第四题-实现路由和调整线程池参数/netty-gateway-03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,13 +61,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\系统性课程\极客大学-Java进阶训练营\code\JAVA-01\Week_03\第六课作业\netty-gateway-02\src\main\java" />
+      <recent name="E:\系统性课程\极客大学-Java进阶训练营\code\JAVA-01\Week_03\第六课作业\第二题和第四题-实现路由和调整线程池参数\netty-gateway-03" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="server.HttpServer" />
-      <module name="netty-gateway-02" />
+      <module name="netty-gateway-03" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="server.*" />
@@ -88,15 +101,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="13b85161-342f-40ea-be62-105584132fed" name="Default Changelist" comment="" />
-      <created>1611655422147</created>
+      <changelist id="985d9c92-bb7b-47fd-ab2a-db9eeb7fccc3" name="Default Changelist" comment="" />
+      <created>1611739554161</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1611655422147</updated>
-      <workItem from="1611655423265" duration="5539000" />
-      <workItem from="1611735386809" duration="30000" />
-      <workItem from="1611735600811" duration="1208000" />
-      <workItem from="1611737351607" duration="2170000" />
+      <updated>1611739554161</updated>
+      <workItem from="1611739555384" duration="127000" />
+      <workItem from="1611739691289" duration="7556000" />
     </task>
     <servers />
   </component>
@@ -114,10 +125,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/../../.." />
-    </ignored-roots>
   </component>
 </project>
