@@ -1,0 +1,63 @@
+
+#mybatis相关配置
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+  type-aliases-package: com.xiaowenhou.shardingjdbcreadwrite.entity.*
+  configuration:
+    cache-enabled: false
+    call-setters-on-nulls: true
+    jdbc-type-for-null: null
+    map-underscore-to-camel-case: true
+
+#shardingsphere
+spring:
+  shardingsphere:
+    datasource:
+      #两个数据源，分别为master和slave0
+      names: master,slave0
+      masterslave:
+        #对外提供的的数据源名称为datasource
+        name: datasource
+        #master为主库， slave0为从库， 负载均衡策略为轮询
+        master-data-source-name: master
+        slave-data-source-names: slave0
+        load-balance-algorithm-type: ROUND_ROBIN
+        #打印sql
+        props:
+          sql:
+            show: true
+      #分别为主库和从库的数据源配置
+      master:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://127.0.0.1:3306/master?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+        username: root
+        password: zx5708923
+        type: com.zaxxer.hikari.HikariDataSource
+        hikari:
+          maximum-pool-size: 16
+          minimum-idle: 8
+          dle-timeout: 600000
+      slave0:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://127.0.0.1:3306/slave?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+        username: root
+        password: zx5708923
+        type: com.zaxxer.hikari.HikariDataSource
+        hikari:
+          maximum-pool-size: 16
+          minimum-idle: 8
+          dle-timeout: 600000
+
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/master?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+#    username: root
+#    password: zx5708923
+#    type: com.zaxxer.hikari.HikariDataSource
+#    hikari:
+#      maximum-pool-size: 16
+#      minimum-idle: 8
+#      idle-timeout: 600000
+
+

@@ -1,0 +1,57 @@
+
+#mybatis
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+  type-aliases-package: com.xiaowenhou.shardingjdbcreadwrite.entity.*
+  configuration:
+    cache-enabled: false
+    call-setters-on-nulls: true
+    jdbc-type-for-null: null
+    map-underscore-to-camel-case: true
+
+#shardingsphere
+spring:
+  shardingsphere:
+    datasource:
+      names: master,slave0
+      master:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://127.0.0.1:3306/master?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+        username: root
+        password: zx5708923
+        type: com.zaxxer.hikari.HikariDataSource
+        hikari:
+          maximum-pool-size: 16
+          minimum-idle: 8
+          dle-timeout: 600000
+      slave0:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://127.0.0.1:3306/slave?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+        username: root
+        password: zx5708923
+        type: com.zaxxer.hikari.HikariDataSource
+        hikari:
+          maximum-pool-size: 16
+          minimum-idle: 8
+          dle-timeout: 600000
+    masterslave:
+      name: datasource
+      master-data-source-name: master
+      slave-data-source-names: slave0
+      load-balance-algorithm-type: ROUND_ROBIN
+    props:
+      sql:
+        show: true
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/master?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+#    username: root
+#    password: zx5708923
+#    type: com.zaxxer.hikari.HikariDataSource
+#    hikari:
+#      maximum-pool-size: 16
+#      minimum-idle: 8
+#      idle-timeout: 600000
+
+

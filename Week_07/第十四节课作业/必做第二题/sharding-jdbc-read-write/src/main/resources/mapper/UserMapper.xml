@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaowenhou.shardingjdbcreadwrite.dao.UserDao">
+	<resultMap id="BaseResultMap" type="com.xiaowenhou.shardingjdbcreadwrite.entity.User">
+		<result column="id" property="id" />
+		<result column="name" property="name" />
+		<result column="description" property="description" />
+	</resultMap>
+
+	<parameterMap id="User" type="com.xiaowenhou.shardingjdbcreadwrite.entity.User"/>
+
+	<sql id="Base_Column_List">
+		id, name, description
+	</sql>
+
+
+	<insert id="insert" parameterType="com.xiaowenhou.shardingjdbcreadwrite.entity.User" keyProperty="id" useGeneratedKeys="true">
+		INSERT INTO
+			user
+			(name, description)
+		VALUES
+		(#{name}, #{description})
+	</insert>
+
+	<select id="findAll" resultMap="BaseResultMap" parameterType="java.lang.String">
+		select
+		<include refid="Base_Column_List" />
+		from user
+	</select>
+
+</mapper>

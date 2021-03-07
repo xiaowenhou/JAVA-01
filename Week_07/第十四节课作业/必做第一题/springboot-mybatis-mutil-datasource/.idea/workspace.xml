@@ -5,30 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ee11d07-a7bd-4b06-b28c-a24a19df1e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../springboot-dubbo-client/src/main/java/org/spring/springboot/controller/CityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-dubbo-client/src/main/java/org/spring/springboot/dubbo/CityDubboServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/springboot/dao/slave/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-dubbo-client/src/main/java/org/spring/springboot/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-dubbo-client/src/main/java/org/spring/springboot/ClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-dubbo-client/src/main/java/org/spring/springboot/dubbo/CityDubboConsumerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-dubbo-client/src/main/java/org/spring/springboot/dubbo/CityDubboService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-dubbo-client/src/main/java/org/spring/springboot/dubbo/CityDubboService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-dubbo-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-dubbo-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-dubbo-server/src/main/java/org/spring/springboot/dubbo/impl/CityDubboServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-dubbo-server/src/main/java/org/spring/springboot/dubbo/impl/CityDubboServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-dubbo-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-dubbo-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/springboot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/spring/springboot/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/springboot/config/ds/ClusterDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/spring/springboot/config/ds/SlaveDataSourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/springboot/config/ds/MasterDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/spring/springboot/config/ds/MasterDataSourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/springboot/controller/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/spring/springboot/controller/UserRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/springboot/dao/cluster/CityDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/springboot/dao/master/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/spring/springboot/dao/master/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/springboot/domain/City.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/springboot/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/spring/springboot/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/springboot/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/spring/springboot/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/springboot/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/spring/springboot/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/cluster/CityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/slave/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/master/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/master/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-properties/springboot-properties.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_spring_test_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_spring_web_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/src/main/java/com/xiaowenhou/shardingjdbcreadwrite/ShardingJdbcReadWriteApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/src/main/java/com/xiaowenhou/shardingjdbcreadwrite/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/src/main/java/com/xiaowenhou/shardingjdbcreadwrite/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/src/main/java/com/xiaowenhou/shardingjdbcreadwrite/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/src/main/java/com/xiaowenhou/shardingjdbcreadwrite/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/src/main/java/com/xiaowenhou/shardingjdbcreadwrite/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../必做第二题/sharding-jdbc-read-write/src/test/java/com/xiaowenhou/shardingjdbcreadwrite/ShardingJdbcReadWriteApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +80,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="ProjectId" id="1pEnINqENRvupeGnzyPUMHNXoIp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -56,7 +100,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper/slave" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,17 +117,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-mybatis-mutil-datasource" />
       <extension name="coverage">
@@ -117,6 +150,7 @@
       <workItem from="1614757038729" duration="3783000" />
       <workItem from="1614768013233" duration="670000" />
       <workItem from="1615041069237" duration="3589000" />
+      <workItem from="1615096555878" duration="1015000" />
     </task>
     <servers />
   </component>
