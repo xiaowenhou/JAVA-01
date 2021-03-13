@@ -1,0 +1,22 @@
+
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*.xml
+  typeAliasesPackage: com.xiaowenhou.shardingproxydemo.entity.*
+  global-config:
+    #db-config:
+     # id-type: AUTO
+    banner: false
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true
+    jdbc-type-for-null: 'null'
+
+#数据源配置， 这里配置成sharding-proxy的连接和用户名密码
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3307/homework_db?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: sharding

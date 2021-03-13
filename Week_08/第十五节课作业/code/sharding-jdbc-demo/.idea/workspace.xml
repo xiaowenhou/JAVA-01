@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4fb0f8ca-c439-44b1-91ab-24e47a8da301" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/ShardingJdbcDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/config/RedisTemplateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/dao/AddressDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/ids/SelfID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/org.apache.shardingsphere.spi.keygen.ShardingKeyGenerator" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-sharding-database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AddressDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaowenhou/shardingjdbcdemo/ShardingJdbcDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaowenhou/shardingjdbcdemo/dao/AddressDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaowenhou/shardingjdbcdemo/dao/OrderDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaowenhou/shardingjdbcdemo/dao/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaowenhou/shardingjdbcdemo/redis/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/java/com/xiaowenhou/shardingproxydemo/dao/AddressDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/java/com/xiaowenhou/shardingproxydemo/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/java/com/xiaowenhou/shardingproxydemo/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/java/com/xiaowenhou/shardingproxydemo/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/java/com/xiaowenhou/shardingproxydemo/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/java/com/xiaowenhou/shardingproxydemo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/resources/mapper/AddressDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/resources/mapper/OrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/resources/mapper/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/test/java/com/xiaowenhou/shardingproxydemo/dao/AddressDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/test/java/com/xiaowenhou/shardingproxydemo/dao/OrderDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/test/java/com/xiaowenhou/shardingproxydemo/dao/UserDaoTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1pbWcuai9vtIXtGtIygElWIQDe5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/project/marriage/recommend" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\系统性课程\极客大学-Java进阶训练营\code\JAVA-01\Week_08\第十五节课作业\code\sharding-jdbc-demo\src\main\resources" />
+      <recent name="E:\系统性课程\极客大学-Java进阶训练营\code\JAVA-01\Week_08\第十五节课作业\code\sharding-jdbc-demo\src\test\java\com\xiaowenhou\shardingjdbcdemo" />
+      <recent name="E:\系统性课程\极客大学-Java进阶训练营\code\JAVA-01\Week_08\第十五节课作业\code\sharding-jdbc-demo\src\main\java\com\xiaowenhou\shardingjdbcdemo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\系统性课程\极客大学-Java进阶训练营\code\JAVA-01\Week_08\第十五节课作业\code\sharding-jdbc-demo\src\main\resources\META-INF.services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.OrderDaoTest.insertTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddressDaoTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding-jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaowenhou.shardingjdbcdemo.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaowenhou.shardingjdbcdemo.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaowenhou.shardingjdbcdemo.dao.AddressDaoTest" />
+      <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderDaoTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding-jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaowenhou.shardingjdbcdemo.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaowenhou.shardingjdbcdemo.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaowenhou.shardingjdbcdemo.dao.OrderDaoTest" />
+      <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest.testRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding-jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaowenhou.shardingjdbcdemo.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaowenhou.shardingjdbcdemo.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaowenhou.shardingjdbcdemo.redis.RedisTest" />
+      <option name="METHOD_NAME" value="testRedis" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding-jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaowenhou.shardingjdbcdemo.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaowenhou.shardingjdbcdemo.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaowenhou.shardingjdbcdemo.dao.UserDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding-jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaowenhou.shardingjdbcdemo.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaowenhou.shardingjdbcdemo.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaowenhou.shardingjdbcdemo.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShardingJdbcDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sharding-jdbc-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaowenhou.shardingjdbcdemo.ShardingJdbcDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderDaoTest.insertTest" />
+        <item itemvalue="JUnit.UserDaoTest.insertTest" />
+        <item itemvalue="JUnit.RedisTest.testRedis" />
+        <item itemvalue="JUnit.AddressDaoTest.insertTest" />
+        <item itemvalue="JUnit.UserDaoTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fb0f8ca-c439-44b1-91ab-24e47a8da301" name="Default Changelist" comment="" />
+      <created>1615452352793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615452352793</updated>
+      <workItem from="1615452353932" duration="1340000" />
+      <workItem from="1615467849770" duration="9878000" />
+      <workItem from="1615526198061" duration="2362000" />
+      <workItem from="1615645972459" duration="5578000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
