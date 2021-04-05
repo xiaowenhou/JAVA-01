@@ -5,40 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fb0f8ca-c439-44b1-91ab-24e47a8da301" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/ShardingJdbcDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/config/RedisTemplateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/dao/AddressDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaowenhou/shardingjdbcdemo/ids/SelfID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/org.apache.shardingsphere.spi.keygen.ShardingKeyGenerator" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-sharding-database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AddressDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaowenhou/shardingjdbcdemo/ShardingJdbcDemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaowenhou/shardingjdbcdemo/dao/AddressDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaowenhou/shardingjdbcdemo/dao/OrderDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaowenhou/shardingjdbcdemo/dao/UserDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaowenhou/shardingjdbcdemo/redis/RedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/java/com/xiaowenhou/shardingproxydemo/dao/AddressDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/java/com/xiaowenhou/shardingproxydemo/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/java/com/xiaowenhou/shardingproxydemo/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/java/com/xiaowenhou/shardingproxydemo/entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/java/com/xiaowenhou/shardingproxydemo/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/java/com/xiaowenhou/shardingproxydemo/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/resources/mapper/AddressDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/resources/mapper/OrderDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/main/resources/mapper/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/test/java/com/xiaowenhou/shardingproxydemo/dao/AddressDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/test/java/com/xiaowenhou/shardingproxydemo/dao/OrderDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sharding-proxy-demo/src/test/java/com/xiaowenhou/shardingproxydemo/dao/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-common/hmily-tcc-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-common/src/main/java/com/xiaowenhou/tcc/demo/common/order/dto/OrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-common/src/main/java/com/xiaowenhou/tcc/demo/common/source/api/SourceAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-common/src/main/java/com/xiaowenhou/tcc/demo/common/source/dto/SourceDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-common/src/main/java/com/xiaowenhou/tcc/demo/common/target/api/TargetAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-common/src/main/java/com/xiaowenhou/tcc/demo/common/target/dto/TargetDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-order/hmily-tcc-dubbo-order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-order/src/main/java/com/xiaowenhou/tcc/demo/order/DubboHmilyOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-order/src/main/java/com/xiaowenhou/tcc/demo/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-order/src/main/java/com/xiaowenhou/tcc/demo/order/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-order/src/main/java/com/xiaowenhou/tcc/demo/order/entity/OrderDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-order/src/main/java/com/xiaowenhou/tcc/demo/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-order/src/main/java/com/xiaowenhou/tcc/demo/order/service/TransferService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-order/src/main/java/com/xiaowenhou/tcc/demo/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-order/src/main/java/com/xiaowenhou/tcc/demo/order/service/impl/TransferServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-order/src/main/java/com/xiaowenhou/tcc/demo/order/vo/TransferVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-order/src/main/resources/hmily.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-order/src/main/resources/mapper/OrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-order/src/main/resources/spring-dubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-source/hmily-tcc-dubbo-source.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-source/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-source/src/main/java/com/xiaowenhou/tcc/demo/source/DubboHmilySourceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-source/src/main/java/com/xiaowenhou/tcc/demo/source/service/SourceAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-source/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-source/src/main/resources/hmily.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-source/src/main/resources/spring-dubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-target/hmily-tcc-dubbo-target.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-target/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-target/src/main/java/com/xiaowenhou/tcc/demo/target/DubboHmilyTargetApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-target/src/main/java/com/xiaowenhou/tcc/demo/target/service/TargetAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-target/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-target/src/main/resources/hmily.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/hmily-tcc-dubbo-target/src/main/resources/spring-dubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/hmily-tcc-dubbo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第十六节课作业/必做作业/code/hmily-tcc-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +85,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/project/marriage/recommend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../../BaiduNetdiskDownload/拉勾Java高薪/03.第三阶段 分布式架构设计微服务深入剖析/03.模块三 高性能RPC框架Apache Dubbo/00.课程资料/Dubbo/code/第一部分/demo-base" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -93,17 +107,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.OrderDaoTest.insertTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AddressDaoTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sharding-jdbc-demo" />
       <extension name="coverage">
@@ -122,12 +125,6 @@
     </configuration>
     <configuration name="OrderDaoTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sharding-jdbc-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaowenhou.shardingjdbcdemo.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="com.xiaowenhou.shardingjdbcdemo.dao" />
       <option name="MAIN_CLASS_NAME" value="com.xiaowenhou.shardingjdbcdemo.dao.OrderDaoTest" />
       <option name="METHOD_NAME" value="insertTest" />
@@ -214,7 +211,21 @@
       <workItem from="1615452353932" duration="1340000" />
       <workItem from="1615467849770" duration="9878000" />
       <workItem from="1615526198061" duration="2362000" />
-      <workItem from="1615645972459" duration="5578000" />
+      <workItem from="1615645972459" duration="6434000" />
+      <workItem from="1615713905978" duration="1204000" />
+      <workItem from="1616487080652" duration="1742000" />
+      <workItem from="1616552420391" duration="669000" />
+      <workItem from="1616826061734" duration="3299000" />
+      <workItem from="1616851446758" duration="2569000" />
+      <workItem from="1616859988767" duration="633000" />
+      <workItem from="1616893128697" duration="3465000" />
+      <workItem from="1617021980658" duration="1234000" />
+      <workItem from="1617103537231" duration="1170000" />
+      <workItem from="1617115520541" duration="597000" />
+      <workItem from="1617152396844" duration="1948000" />
+      <workItem from="1617282751740" duration="1619000" />
+      <workItem from="1617443408659" duration="704000" />
+      <workItem from="1617454387269" duration="1798000" />
     </task>
     <servers />
   </component>

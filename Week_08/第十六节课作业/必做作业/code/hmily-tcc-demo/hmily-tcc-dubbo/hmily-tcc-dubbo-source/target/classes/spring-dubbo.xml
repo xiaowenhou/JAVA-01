@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:application name="source_service"/>
+
+    <dubbo:registry protocol="zookeeper" address="localhost:2188"/>
+
+    <dubbo:protocol name="dubbo" port="20882"
+                    charset="UTF-8" threadpool="fixed" threads="32"/>
+
+    <dubbo:service interface="com.xiaowenhou.tcc.demo.common.source.api.SourceAccountService"
+                   ref="sourceAccountService" executes="20"/>
+</beans>
