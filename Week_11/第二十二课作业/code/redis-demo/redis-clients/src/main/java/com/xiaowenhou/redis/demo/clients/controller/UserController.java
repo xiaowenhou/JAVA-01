@@ -21,4 +21,10 @@ public class UserController {
                         @PathVariable("userId") Integer userId) {
         return userService.findById(userId, redisClientType);
     }
+
+
+    @GetMapping("/{userId}")
+    public User getUserOnly(@PathVariable("userId") Integer userId) {
+        return userService.findByIdOnly(userId);
+    }
 }

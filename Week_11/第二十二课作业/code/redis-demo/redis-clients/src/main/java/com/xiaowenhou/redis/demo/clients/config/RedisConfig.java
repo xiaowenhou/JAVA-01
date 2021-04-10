@@ -4,18 +4,55 @@ import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.cache.CacheManager;
+import org.springframework.cache.annotation.CachingConfigurerSupport;
+import org.springframework.cache.interceptor.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.redis.cache.RedisCacheConfiguration;
+import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.connection.RedisSentinelConfiguration;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
+import org.springframework.data.redis.serializer.RedisSerializationContext;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
+
+import javax.annotation.Resource;
+
+import java.util.Objects;
+
+import static org.springframework.data.redis.cache.RedisCacheConfiguration.defaultCacheConfig;
 
 
 @Configuration
-public class RedisConfig{
+public class RedisConfig extends CachingConfigurerSupport {
+
+    @Resource(name = "lettuce")
+    private RedisConnectionFactory factory;
+
+    /**
+     * 自定义生成redis-key
+     *
+     * @return
+     */
+    @Override
+    @Bean
+    public KeyGenerator keyGenerator() {
+        return (o, method, objects) -> {
+            StringBuilder sb = new StringBuilder();
+            sb.append(o.getClass().getName()).append(".");
+            sb.append(method.getName()).append(".");
+            for (Object obj : objects) {
+                sb.append(obj.toString());
+            }
+            //System.out.println("keyGenerator=" + sb.toString());
+            return sb.toString();
+        };
+    }
+
+
     /**
      * sentinel配置
      *
@@ -29,7 +66,6 @@ public class RedisConfig{
                 .sentinel("192.168.198.110", 26379)
                 .sentinel("192.168.198.120", 26379);
     }
-
 
 
     @Bean
@@ -56,5 +92,29 @@ public class RedisConfig{
         template.setHashValueSerializer(jackson2JsonRedisSerializer);
         template.afterPropertiesSet();
         return template;
+    }
+
+
+    @Bean
+    @Override
+    public CacheResolver cacheResolver() {
+        return new SimpleCacheResolver(Objects.requireNonNull(cacheManager()));
+    }
+
+    @Bean
+    @Override
+    public CacheErrorHandler errorHandler() {
+        // 用于捕获从Cache中进行CRUD时的异常的回调处理器。
+        return new SimpleCacheErrorHandler();
+    }
+
+    @Bean
+    @Override
+    public CacheManager cacheManager() {
+        RedisCacheConfiguration cacheConfiguration = defaultCacheConfig()
+                .disableCachingNullValues()
+                .serializeValuesWith(RedisSerializationContext.SerializationPair.fromSerializer(new GenericJackson2JsonRedisSerializer()))
+                .serializeKeysWith(RedisSerializationContext.SerializationPair.fromSerializer(new StringRedisSerializer()));
+        return RedisCacheManager.builder(factory).cacheDefaults(cacheConfiguration).build();
     }
 }

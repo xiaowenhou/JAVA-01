@@ -4,6 +4,7 @@ import com.xiaowenhou.redis.demo.clients.entity.User;
 import com.xiaowenhou.redis.demo.clients.factory.RedisTemplateFactory;
 import com.xiaowenhou.redis.demo.clients.service.UserService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
@@ -37,6 +38,18 @@ public class UserServiceImpl implements UserService {
             redisTemplate.opsForValue().set(redisClientKey + "." + id, user, 180, TimeUnit.SECONDS);
         }
 
+        return user;
+    }
+
+    @Override
+    @Cacheable(key = "#id", value = "userCache")
+    public User findByIdOnly(Integer id) {
+        log.info("cache not hint...");
+        //模拟查数据库
+        User user = new User();
+        user.setId(id);
+        user.setName("Tom");
+        user.setAge(27);
         return user;
     }
 }

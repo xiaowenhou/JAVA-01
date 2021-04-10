@@ -4,4 +4,6 @@ import com.xiaowenhou.redis.demo.clients.entity.User;
 
 public interface UserService {
     User findById(Integer id, String redisClientKey);
+
+    User findByIdOnly(Integer id);
 }
