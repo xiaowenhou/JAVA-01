@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/consumerAck/consumerAck.iml" filepath="$PROJECT_DIR$/consumerAck/consumerAck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dlx/dlx.iml" filepath="$PROJECT_DIR$/dlx/dlx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/persistent/persistent.iml" filepath="$PROJECT_DIR$/persistent/persistent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qos/qos.iml" filepath="$PROJECT_DIR$/qos/qos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rabbitmq-demo.iml" filepath="$PROJECT_DIR$/.idea/rabbitmq-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple/simple.iml" filepath="$PROJECT_DIR$/simple/simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-cluster/springboot-cluster.iml" filepath="$PROJECT_DIR$/springboot-cluster/springboot-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-consumer-ack/springboot-consumer-ack.iml" filepath="$PROJECT_DIR$/springboot-consumer-ack/springboot-consumer-ack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-delay/springboot-delay.iml" filepath="$PROJECT_DIR$/springboot-delay/springboot-delay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo/springboot-demo.iml" filepath="$PROJECT_DIR$/springboot-demo/springboot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dlx/springboot-dlx.iml" filepath="$PROJECT_DIR$/springboot-dlx/springboot-dlx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-persistent/springboot-persistent.iml" filepath="$PROJECT_DIR$/springboot-persistent/springboot-persistent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-reliable/springboot-reliable.iml" filepath="$PROJECT_DIR$/springboot-reliable/springboot-reliable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-ttl/springboot-ttl.iml" filepath="$PROJECT_DIR$/springboot-ttl/springboot-ttl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttl/ttl.iml" filepath="$PROJECT_DIR$/ttl/ttl.iml" />
+    </modules>
+  </component>
+</project>

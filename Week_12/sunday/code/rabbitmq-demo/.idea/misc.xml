@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ASMPluginConfiguration">
+    <asm skipDebug="false" skipFrames="false" skipCode="false" expandFrames="false" />
+    <groovy codeStyle="LEGACY" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/simple/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-reliable/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-persistent/pom.xml" />
+        <option value="$PROJECT_DIR$/persistent/pom.xml" />
+        <option value="$PROJECT_DIR$/consumerAck/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-consumer-ack/pom.xml" />
+        <option value="$PROJECT_DIR$/qos/pom.xml" />
+        <option value="$PROJECT_DIR$/ttl/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-ttl-dls/pom.xml" />
+        <option value="$PROJECT_DIR$/dlx/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dlx/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-delay/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-ttl/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-cluster/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-ttl" />
+        <module name="springboot-reliable" />
+        <module name="consumerAck" />
+        <module name="simple" />
+        <module name="springboot-cluster" />
+        <module name="springboot-delay" />
+        <module name="ttl" />
+        <module name="spring-demo" />
+        <module name="springboot-consumer-ack" />
+        <module name="dlx" />
+        <module name="springboot-demo" />
+        <module name="qos" />
+        <module name="springboot-persistent" />
+        <module name="persistent" />
+        <module name="springboot-dlx" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumerAck" target="8" />
+      <module name="dlx" target="8" />
+      <module name="persistent" target="8" />
+      <module name="qos" target="8" />
+      <module name="simple" target="8" />
+      <module name="spring-demo" target="8" />
+      <module name="springboot-cluster" target="1.8" />
+      <module name="springboot-consumer-ack" target="1.8" />
+      <module name="springboot-delay" target="1.8" />
+      <module name="springboot-demo" target="1.8" />
+      <module name="springboot-dlx" target="1.8" />
+      <module name="springboot-persistent" target="1.8" />
+      <module name="springboot-reliable" target="1.8" />
+      <module name="springboot-ttl" target="1.8" />
+      <module name="ttl" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-cluster" options="-parameters" />
+      <module name="springboot-consumer-ack" options="-parameters" />
+      <module name="springboot-delay" options="-parameters" />
+      <module name="springboot-demo" options="-parameters" />
+      <module name="springboot-dlx" options="-parameters" />
+      <module name="springboot-persistent" options="-parameters" />
+      <module name="springboot-reliable" options="-parameters" />
+      <module name="springboot-ttl" options="-parameters" />
+    </option>
+  </component>
+</project>
